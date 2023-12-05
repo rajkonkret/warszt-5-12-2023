@@ -90,5 +90,37 @@ print(liczba)
 print(f"Nasza duża {liczba:,}")  # Nasza duża 456,123,789,345
 print(f"Nasza duża {liczba:,}".replace(",", "."))  # Nasza duża 456.123.789.345
 
-# typ logiczny
 # 11:30
+
+liczba2 = 11111112.765
+print(f"Nasza duża {liczba2:,}".replace(",", ""))  # Nasza duża 11.111.112.765
+print(f"Nasza duża {liczba2:,}".replace(",", " ").replace(".", ","))  # Nasza duża 11 111 112,765
+# hackerrank
+
+# typ logiczny
+# True False
+# prawda fałsz
+czy_znasz_python = True
+print(czy_znasz_python)
+print(type(czy_znasz_python))  # <class 'bool'>
+print(int(True))  # 1
+print(int(False))  # 0
+print(bool(1))  # True
+print(bool(100))  # True
+print(bool(-10))
+print(bool("radek"))
+print(bool(0))  # False
+print(bool(""))  # False
+print(bool(None))  # False, None -> nic, null
+
+tekst = "    Tekst    "
+print(tekst.strip())  # "Tekst"
+print(tekst.lstrip())  # "Tekst    "
+
+tekst_x = "Witaj świecie"
+encode_s = tekst_x.encode('utf-8')
+print(encode_s)  # b'Witaj \xc5\x9bwiecie'
+# b - bajtowo
+# \x - szesnatkowo
+print(encode_s.decode('utf-8'))
+print("\u0105")  # ą
