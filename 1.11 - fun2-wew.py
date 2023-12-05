@@ -17,3 +17,4 @@ print(xFun(3, 5))  # 15
 # To jest fun1 radek
 # <function fun1.<locals>.fwew at 0x00000192ADC3CF40>
 # 15
+# 14:55
