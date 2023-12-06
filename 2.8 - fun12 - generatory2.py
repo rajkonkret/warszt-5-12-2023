@@ -88,5 +88,30 @@ print("---------")
 for i in fibo3:
     print(i)
 
+
 # print(next(fibo3))  # StopIteration
 # 13:30
+
+def counter(start=0):
+    n = start
+    while True:
+        result = yield n
+        print(result)
+        if result == 'q':
+            break
+        n += 1
+
+
+c = counter(10)
+print(next(c))
+print(next(c))
+print(next(c))
+print(next(c))
+print(next(c))
+print(c.send("Ok"))  # Ok
+try:
+    c.send('q')  # StopIteration
+except StopIteration:
+    pass
+
+print(next(c))  # StopIteration
