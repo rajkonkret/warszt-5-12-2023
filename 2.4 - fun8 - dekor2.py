@@ -31,3 +31,4 @@ def greeting2(name):
 # po dodaniu dekoratora
 # HELLO WORLD!
 print(greeting2("Radek"))
+# RADEK - w konsoli widać jako pogrubione
