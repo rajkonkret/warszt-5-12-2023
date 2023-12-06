@@ -96,7 +96,7 @@ def counter(start=0):
     n = start
     while True:
         result = yield n
-        print(result)
+        print(result)  # komunikata przesłany komendą send
         if result == 'q':
             break
         n += 1
