@@ -14,4 +14,5 @@ class Person:
     id: int
 
 
-print("Klasa Person")
+if __name__ == '__main__':
+    print("Klasa Person")
