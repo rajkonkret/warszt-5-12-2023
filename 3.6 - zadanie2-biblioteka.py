@@ -111,6 +111,10 @@ while True:
         isbn = input("Podaj numer isbn")
         biblioteka.fun_dodaj_ksiazke(Book(tytul, autor, isbn))
         print("Ksiązka zostałą dodana")
+    elif odp == "2":
+        isbn = input("Podaj numer ISBN ksiąki, którą chcesz wypożyczyc")
+        book = biblioteka.fun_wypozycz_ksiazke(isbn)
+        print(f"Wypożyczyłeś ksiązkę: {book}")
     elif odp == "3":
         print(f"Dostępne ksiązki do wypożyczenia {biblioteka.fun_ksiazki_do_wypozyczenia()}")
     elif odp == "4":
