@@ -1,5 +1,6 @@
 # __eq__ porównaie (==)
 # __lt__ mniejsza niz (<)
+# metody magiczne
 
 class MyNumber:
     def __init__(self, value):
