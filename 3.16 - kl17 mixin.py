@@ -5,7 +5,6 @@ import json
 
 
 class JsonMixin:
-    import json  # wprzypadku klas mixin dopuszcczone
     def to_json(self):
         return json.dumps(self.__dict__)
 
