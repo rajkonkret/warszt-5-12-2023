@@ -63,6 +63,18 @@ https://play.google.com/store/apps/details?id=pl.rajkonkret.testjava2&hl=pl&gl=U
 \N{name} - Znak Unicode o podanej nazwie
 The and Operator’s Truth Table:
 
+\033[31m: Set text color to red
+\033[32m: Set text color to green
+\033[33m: Set text color to yellow
+\033[34m: Set text color to blue
+\033[35m: Set text color to magenta
+\033[36m: Set text color to cyan
+\033[37m: Set text color to white
+\033[0m: Reset text color to default
+\033[1m: Set text style to bold
+\033[4m: Set text style to underline
+print("\033[31mHello\033[0m") - kolorki
+
 Expression    Evaluates to
 True and True    True
 True and False    False
