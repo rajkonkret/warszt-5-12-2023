@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Tristan",
+        "last": "Taylor"
+      },
+      "location": {
+        "street": {
+          "number": 7079,
+          "name": "Lakeview Ave"
+        },
+        "city": "Maitland",
+        "state": "Ontario",
+        "country": "Canada",
+        "postcode": "W2N 6E7",
+        "coordinates": {
+          "latitude": "-72.0924",
+          "longitude": "-124.6912"
+        },
+        "timezone": {
+          "offset": "+10:00",
+          "description": "Eastern Australia, Guam, Vladivostok"
+        }
+      },
+      "email": "tristan.taylor@example.com",
+      "login": {
+        "uuid": "eeeb99a7-c275-49c5-864a-64d6435a34dc",
+        "username": "crazymouse480",
+        "password": "gocubs",
+        "salt": "ViCuMXvI",
+        "md5": "f7cb7bbefac4da15f21c9c2277bbeb39",
+        "sha1": "aaf93ed8376b1412f14337e82cd337c0d458082e",
+        "sha256": "1c542ca721dd62aa9b49473c816172b070ed465e52fab03843a0585812a1b2b5"
+      },
+      "dob": {
+        "date": "1959-05-01T17:19:44.957Z",
+        "age": 64
+      },
+      "registered": {
+        "date": "2019-06-18T08:06:42.314Z",
+        "age": 4
+      },
+      "phone": "H23 R22-8721",
+      "cell": "R24 Z18-4867",
+      "id": {
+        "name": "SIN",
+        "value": "955847785"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/42.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/42.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg"
+      },
+      "nat": "CA"
+    }
+  ],
+  "info": {
+    "seed": "c2c884a5c51a1df8",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}
