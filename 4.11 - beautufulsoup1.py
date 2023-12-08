@@ -11,6 +11,7 @@ table = soup.find('table', class_="infobox darktable")
 
 for tag in table.find_all(class_="reference"):
     tag.decompose()
+print(table)
 
 for th in table.find_all("th")[1:]:
     print(f"{th.text}: {th.next_sibling.get_text(strip=True)}")
