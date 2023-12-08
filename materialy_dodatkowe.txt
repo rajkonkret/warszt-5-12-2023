@@ -118,3 +118,5 @@ spam %= 1    spam = spam % 1
 -------------
 PS C:\Users\CSComarch\PycharmProjects\warszt-5-12-2023> pip freeze > requirements
 PS C:\Users\CSComarch\PycharmProjects\warszt-5-12-2023> pip -r install .\requirements.txt
+PS C:\Users\CSComarch\PycharmProjects\warszt-5-12-2023> pip install pyinstaller
+PS C:\Users\CSComarch\PycharmProjects\warszt-5-12-2023> pyinstaller.exe '.\2.1 fun5 - rekurencja.py'

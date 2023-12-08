@@ -17,3 +17,4 @@ def nwd(a, b):
 
 print(silnia(5))  # 120
 print(nwd(48, 18))  # 6
+input()
