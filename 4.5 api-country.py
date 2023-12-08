@@ -59,3 +59,4 @@ pprint(country_data)
 print(type(country_data[0]))  # <class '__main__.CountryInfo'>
 for country in country_data:
     print(f'{country.name}, {country.capital} {country.name.nativeName.pol.official}')
+# 13:25
